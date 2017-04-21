@@ -13,8 +13,11 @@ public class Boletin24programacion {
     public static void main(String[] args) {
        
         Ventana1 ven1 = new Ventana1();
-        ven1.setLocationRelativeTo(null);
+        ven1.setLocation(200, 200);
         ven1.setVisible(true);
+        Ventana2 ven2 = new Ventana2();
+        ven2.setLocation(1000, 200);
+        ven2.setVisible(true);
         
         
     }
